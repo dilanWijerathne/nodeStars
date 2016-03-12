@@ -1,0 +1,321 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/dh/nodejs/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'strongloop' ]
+2 info using npm@2.5.1
+3 info using node@v0.12.0
+4 silly cache add args [ 'strongloop', null ]
+5 verbose cache add spec strongloop
+6 silly cache add parsed spec { raw: 'strongloop',
+6 silly cache add   scope: null,
+6 silly cache add   name: 'strongloop',
+6 silly cache add   rawSpec: '',
+6 silly cache add   spec: '*',
+6 silly cache add   type: 'range' }
+7 verbose addNamed strongloop@*
+8 silly addNamed semver.valid null
+9 silly addNamed semver.validRange *
+10 silly addNameRange { name: 'strongloop', range: '*', hasData: false }
+11 silly mapToRegistry name strongloop
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry uri https://registry.npmjs.org/strongloop
+15 verbose addNameRange registry:https://registry.npmjs.org/strongloop not in flight; fetching
+16 verbose request uri https://registry.npmjs.org/strongloop
+17 verbose request no auth needed
+18 info attempt registry request try #1 at 21:28:24
+19 verbose request id 9a696b9746a7e186
+20 http request GET https://registry.npmjs.org/strongloop
+21 http 200 https://registry.npmjs.org/strongloop
+22 silly get cb [ 200,
+22 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+22 silly get     etag: '"C9URPAMQPUMD0BE45LTUOVHI2"',
+22 silly get     'content-type': 'application/json',
+22 silly get     'cache-control': 'max-age=300',
+22 silly get     'content-length': '130825',
+22 silly get     'accept-ranges': 'bytes',
+22 silly get     date: 'Fri, 11 Mar 2016 05:28:25 GMT',
+22 silly get     via: '1.1 varnish',
+22 silly get     age: '0',
+22 silly get     connection: 'keep-alive',
+22 silly get     'x-served-by': 'cache-iad2141-IAD',
+22 silly get     'x-cache': 'HIT',
+22 silly get     'x-cache-hits': '1',
+22 silly get     'x-timer': 'S1457674105.013298,VS0,VE359',
+22 silly get     vary: 'Accept' } ]
+23 verbose get saving strongloop to /home/fmfsmsdev1/.npm/registry.npmjs.org/strongloop/.cache.json
+24 silly addNameRange number 2 { name: 'strongloop', range: '*', hasData: true }
+25 silly addNameRange versions [ 'strongloop',
+25 silly addNameRange   [ '2.0.0-beta1',
+25 silly addNameRange     '2.0.0-beta2',
+25 silly addNameRange     '2.0.0-beta3',
+25 silly addNameRange     '2.0.0-beta4',
+25 silly addNameRange     '2.0.0-beta5',
+25 silly addNameRange     '2.0.0-beta6',
+25 silly addNameRange     '2.0.0-beta7',
+25 silly addNameRange     '2.0.0-beta8',
+25 silly addNameRange     '2.0.0',
+25 silly addNameRange     '2.7.1',
+25 silly addNameRange     '2.7.2',
+25 silly addNameRange     '2.8.0',
+25 silly addNameRange     '2.9.0',
+25 silly addNameRange     '2.9.1',
+25 silly addNameRange     '2.9.2',
+25 silly addNameRange     '2.9.3',
+25 silly addNameRange     '2.10.0',
+25 silly addNameRange     '2.10.1',
+25 silly addNameRange     '2.10.2',
+25 silly addNameRange     '2.10.3',
+25 silly addNameRange     '3.0.0',
+25 silly addNameRange     '3.0.1',
+25 silly addNameRange     '3.0.2',
+25 silly addNameRange     '3.0.3',
+25 silly addNameRange     '3.0.4',
+25 silly addNameRange     '3.0.5',
+25 silly addNameRange     '3.0.6',
+25 silly addNameRange     '3.1.0',
+25 silly addNameRange     '3.1.1',
+25 silly addNameRange     '3.1.2',
+25 silly addNameRange     '4.0.0',
+25 silly addNameRange     '4.0.1',
+25 silly addNameRange     '4.0.2',
+25 silly addNameRange     '4.0.3',
+25 silly addNameRange     '4.0.4',
+25 silly addNameRange     '4.0.5',
+25 silly addNameRange     '4.1.0',
+25 silly addNameRange     '4.1.1',
+25 silly addNameRange     '5.0.0',
+25 silly addNameRange     '5.0.1',
+25 silly addNameRange     '6.0.0' ] ]
+26 verbose addNamed strongloop@6.0.0
+27 silly addNamed semver.valid 6.0.0
+28 silly addNamed semver.validRange 6.0.0
+29 silly mapToRegistry name strongloop
+30 silly mapToRegistry using default registry
+31 silly mapToRegistry registry https://registry.npmjs.org/
+32 silly mapToRegistry uri https://registry.npmjs.org/strongloop
+33 verbose addRemoteTarball https://registry.npmjs.org/strongloop/-/strongloop-6.0.0.tgz not in flight; adding
+34 verbose addRemoteTarball [ 'https://registry.npmjs.org/strongloop/-/strongloop-6.0.0.tgz',
+34 verbose addRemoteTarball   '2d41e90df426a10ba4b185e2fa0e0d596c3ffc24' ]
+35 info retry fetch attempt 1 at 21:28:25
+36 info attempt registry request try #1 at 21:28:25
+37 http fetch GET https://registry.npmjs.org/strongloop/-/strongloop-6.0.0.tgz
+38 http fetch 200 https://registry.npmjs.org/strongloop/-/strongloop-6.0.0.tgz
+39 silly fetchAndShaCheck shasum 2d41e90df426a10ba4b185e2fa0e0d596c3ffc24
+40 verbose addTmpTarball /tmp/npm-12678-a17eb922/registry.npmjs.org/strongloop/-/strongloop-6.0.0.tgz not in flight; adding
+41 verbose addTmpTarball already have metadata; skipping unpack for strongloop@6.0.0
+42 silly cache afterAdd strongloop@6.0.0
+43 verbose afterAdd /home/fmfsmsdev1/.npm/strongloop/6.0.0/package/package.json not in flight; writing
+44 verbose afterAdd /home/fmfsmsdev1/.npm/strongloop/6.0.0/package/package.json written
+45 silly install resolved [ { name: 'strongloop',
+45 silly install resolved     version: '6.0.0',
+45 silly install resolved     description: 'StrongLoop Command Line Tools',
+45 silly install resolved     homepage: 'http://www.strongloop.com',
+45 silly install resolved     keywords:
+45 silly install resolved      [ 'Backend',
+45 silly install resolved        'LoopBack',
+45 silly install resolved        'Mobile',
+45 silly install resolved        'Platform',
+45 silly install resolved        'StrongLoop',
+45 silly install resolved        'alerts',
+45 silly install resolved        'analytics',
+45 silly install resolved        'agent',
+45 silly install resolved        'apm',
+45 silly install resolved        'build',
+45 silly install resolved        'bundle',
+45 silly install resolved        'cluster',
+45 silly install resolved        'config',
+45 silly install resolved        'dependencies',
+45 silly install resolved        'deploy',
+45 silly install resolved        'devops',
+45 silly install resolved        'event loop',
+45 silly install resolved        'forever',
+45 silly install resolved        'git',
+45 silly install resolved        'heap',
+45 silly install resolved        'heroku',
+45 silly install resolved        'logging',
+45 silly install resolved        'mBaaS',
+45 silly install resolved        'manager',
+45 silly install resolved        'master',
+45 silly install resolved        'memory',
+45 silly install resolved        'metrics',
+45 silly install resolved        'monitoring',
+45 silly install resolved        'nodeops',
+45 silly install resolved        'npm',
+45 silly install resolved        'npmrc',
+45 silly install resolved        'openshift',
+45 silly install resolved        'ops',
+45 silly install resolved        'performance',
+45 silly install resolved        'pm',
+45 silly install resolved        'process',
+45 silly install resolved        'profiler',
+45 silly install resolved        'profiling',
+45 silly install resolved        'registry',
+45 silly install resolved        'response',
+45 silly install resolved        'runner',
+45 silly install resolved        'service',
+45 silly install resolved        'slc',
+45 silly install resolved        'slowest functions',
+45 silly install resolved        'streams',
+45 silly install resolved        'strong-agent',
+45 silly install resolved        'strong-cli',
+45 silly install resolved        'strong-cluster-control',
+45 silly install resolved        'strong-pm',
+45 silly install resolved        'strong-supervisor',
+45 silly install resolved        'strongloop',
+45 silly install resolved        'strongops',
+45 silly install resolved        'supervisor',
+45 silly install resolved        'switch',
+45 silly install resolved        'time',
+45 silly install resolved        'upstart' ],
+45 silly install resolved     repository:
+45 silly install resolved      { type: 'git',
+45 silly install resolved        url: 'git://github.com/strongloop/strongloop.git' },
+45 silly install resolved     author: { name: 'engineering@strongloop.com' },
+45 silly install resolved     license: 'Artistic-2.0',
+45 silly install resolved     bin:
+45 silly install resolved      { slc: './bin/slc.js',
+45 silly install resolved        'lb-ng': './node_modules/loopback-sdk-angular-cli/bin/lb-ng' },
+45 silly install resolved     scripts:
+45 silly install resolved      { pretest: 'eslint --ignore-path .gitignore . && jscs .',
+45 silly install resolved        test: 'tap --bail test/test-*.*' },
+45 silly install resolved     dependencies:
+45 silly install resolved      { async: '^0.9.0',
+45 silly install resolved        debug: '^2.1.0',
+45 silly install resolved        'generator-loopback': '1.x',
+45 silly install resolved        'loopback-sdk-angular-cli': '2.x',
+45 silly install resolved        'node-inspector': '~0.7.0',
+45 silly install resolved        'nodefly-register': '~0.3.2',
+45 silly install resolved        nopt: '~3.0.1',
+45 silly install resolved        optimist: '^0.6.1',
+45 silly install resolved        read: '~1.0.5',
+45 silly install resolved        'strong-agent': '^2.0.0',
+45 silly install resolved        'strong-arc': '^1.2.0',
+45 silly install resolved        'strong-build': '^2.0.0',
+45 silly install resolved        'strong-deploy': '^3.x',
+45 silly install resolved        'strong-mesh-models': '^8.0.0',
+45 silly install resolved        'strong-pm': '^5.0.0',
+45 silly install resolved        'strong-registry': '^1.0.0',
+45 silly install resolved        'strong-start': '^1.1.0',
+45 silly install resolved        'strong-supervisor': '^3.0.0',
+45 silly install resolved        which: '^1.1.1',
+45 silly install resolved        JSONStream: '^1.0.3',
+45 silly install resolved        bufferutil: '^1.2.1',
+45 silly install resolved        'core-util-is': '^1.0.1',
+45 silly install resolved        d3: '^3.5.6',
+45 silly install resolved        heapdump: '^0.3.7',
+45 silly install resolved        inherits: '^2.0.1',
+45 silly install resolved        less: '~1.4.0',
+45 silly install resolved        lodash: '^3.10.1',
+45 silly install resolved        loopback: '^2.17.0',
+45 silly install resolved        'loopback-datasource-juggler': '^2.41.0',
+45 silly install resolved        'mime-db': '^1.19.0',
+45 silly install resolved        'modern-syslog': '^1.1.2',
+45 silly install resolved        moment: '^2.10.0',
+45 silly install resolved        'readable-stream': '^2.0.3',
+45 silly install resolved        'sl-blip': 'http://blip.strongloop.com/strongloop@6.0.0',
+45 silly install resolved        'spawn-sync': '^1.0.13',
+45 silly install resolved        sqlite3: '^3.1.0',
+45 silly install resolved        'strong-debugger': '^1.0.0',
+45 silly install resolved        'strong-remoting': '^2.0.0',
+45 silly install resolved        'strong-swagger-ui': '^21.0.1',
+45 silly install resolved        'swagger-ui': '^2.1.3',
+45 silly install resolved        'utf-8-validate': '^1.2.1',
+45 silly install resolved        wrappy: '1.0.1',
+45 silly install resolved        ws: '^0.8.0' },
+45 silly install resolved     devDependencies: { eslint: '^1.1.0', jscs: '^1.11.3', tap: '^1.3.1' },
+45 silly install resolved     optionalDependencies:
+45 silly install resolved      { JSONStream: '^1.0.3',
+45 silly install resolved        bufferutil: '^1.2.1',
+45 silly install resolved        'core-util-is': '^1.0.1',
+45 silly install resolved        d3: '^3.5.6',
+45 silly install resolved        heapdump: '^0.3.7',
+45 silly install resolved        inherits: '^2.0.1',
+45 silly install resolved        less: '~1.4.0',
+45 silly install resolved        lodash: '^3.10.1',
+45 silly install resolved        loopback: '^2.17.0',
+45 silly install resolved        'loopback-datasource-juggler': '^2.41.0',
+45 silly install resolved        'mime-db': '^1.19.0',
+45 silly install resolved        'modern-syslog': '^1.1.2',
+45 silly install resolved        moment: '^2.10.0',
+45 silly install resolved        'readable-stream': '^2.0.3',
+45 silly install resolved        'sl-blip': 'http://blip.strongloop.com/strongloop@6.0.0',
+45 silly install resolved        'spawn-sync': '^1.0.13',
+45 silly install resolved        sqlite3: '^3.1.0',
+45 silly install resolved        'strong-debugger': '^1.0.0',
+45 silly install resolved        'strong-remoting': '^2.0.0',
+45 silly install resolved        'strong-swagger-ui': '^21.0.1',
+45 silly install resolved        'swagger-ui': '^2.1.3',
+45 silly install resolved        'utf-8-validate': '^1.2.1',
+45 silly install resolved        wrappy: '1.0.1',
+45 silly install resolved        ws: '^0.8.0' },
+45 silly install resolved     gitHead: '6866eb0f47afaaf2ea2eb27aff0811b21ce24cb8',
+45 silly install resolved     bugs: { url: 'https://github.com/strongloop/strongloop/issues' },
+45 silly install resolved     _id: 'strongloop@6.0.0',
+45 silly install resolved     _shasum: '2d41e90df426a10ba4b185e2fa0e0d596c3ffc24',
+45 silly install resolved     _from: 'strongloop@*',
+45 silly install resolved     _npmVersion: '2.14.7',
+45 silly install resolved     _nodeVersion: '4.2.3',
+45 silly install resolved     _npmUser: { name: 'bajtos', email: 'mbajtoss@gmail.com' },
+45 silly install resolved     dist:
+45 silly install resolved      { shasum: '2d41e90df426a10ba4b185e2fa0e0d596c3ffc24',
+45 silly install resolved        tarball: 'http://registry.npmjs.org/strongloop/-/strongloop-6.0.0.tgz' },
+45 silly install resolved     maintainers:
+45 silly install resolved      [ [Object],
+45 silly install resolved        [Object],
+45 silly install resolved        [Object],
+45 silly install resolved        [Object],
+45 silly install resolved        [Object],
+45 silly install resolved        [Object],
+45 silly install resolved        [Object] ],
+45 silly install resolved     directories: {},
+45 silly install resolved     _resolved: 'https://registry.npmjs.org/strongloop/-/strongloop-6.0.0.tgz' } ]
+46 info install strongloop@6.0.0 into /usr/local/dh/nodejs/lib
+47 info installOne strongloop@6.0.0
+48 verbose installOne of strongloop to /usr/local/dh/nodejs/lib not in flight; installing
+49 verbose lock using /home/fmfsmsdev1/.npm/_locks/strongloop-15e4a05450b4735a.lock for /usr/local/dh/nodejs/lib/node_modules/strongloop
+50 silly install write writing strongloop 6.0.0 to /usr/local/dh/nodejs/lib/node_modules/strongloop
+51 silly cache addNamed cb strongloop@6.0.0
+52 verbose unbuild lib/node_modules/strongloop
+53 verbose gentlyRm vacuuming /usr/local/dh/nodejs/lib/node_modules/strongloop
+54 verbose tar unpack /home/fmfsmsdev1/.npm/strongloop/6.0.0/package.tgz
+55 verbose tar unpacking to /usr/local/dh/nodejs/lib/node_modules/strongloop
+56 verbose gentlyRm vacuuming /usr/local/dh/nodejs/lib/node_modules/strongloop
+57 silly gunzTarPerm modes [ '775', '664' ]
+58 error tar.unpack untar error /home/fmfsmsdev1/.npm/strongloop/6.0.0/package.tgz
+59 verbose unlock done using /home/fmfsmsdev1/.npm/_locks/strongloop-15e4a05450b4735a.lock for /usr/local/dh/nodejs/lib/node_modules/strongloop
+60 verbose fstream_path /usr/local/dh/nodejs/lib/node_modules/strongloop
+61 verbose fstream_type Directory
+62 verbose fstream_class DirWriter
+63 verbose stack Error: EACCES, mkdir '/usr/local/dh/nodejs/lib/node_modules/strongloop'
+63 verbose stack     at Error (native)
+64 verbose fstream_stack /usr/local/dh/nodejs/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+64 verbose fstream_stack /usr/local/dh/nodejs/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+64 verbose fstream_stack FSReqWrap.oncomplete (fs.js:99:15)
+65 verbose cwd /home/fmfsmsdev1/sms.findmyfare.com/public/rabbitsales
+66 error Linux 3.1.9-vs2.3.2.5vs2.3.2.5+
+67 error argv "/usr/local/dh/nodejs/bin/node" "/usr/bin/npm" "install" "-g" "strongloop"
+68 error node v0.12.0
+69 error npm  v2.5.1
+70 error path /usr/local/dh/nodejs/lib/node_modules/strongloop
+71 error code EACCES
+72 error errno -13
+73 error Error: EACCES, mkdir '/usr/local/dh/nodejs/lib/node_modules/strongloop'
+73 error     at Error (native)
+73 error  { [Error: EACCES, mkdir '/usr/local/dh/nodejs/lib/node_modules/strongloop']
+73 error   errno: -13,
+73 error   code: 'EACCES',
+73 error   path: '/usr/local/dh/nodejs/lib/node_modules/strongloop',
+73 error   fstream_type: 'Directory',
+73 error   fstream_path: '/usr/local/dh/nodejs/lib/node_modules/strongloop',
+73 error   fstream_class: 'DirWriter',
+73 error   fstream_stack:
+73 error    [ '/usr/local/dh/nodejs/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+73 error      '/usr/local/dh/nodejs/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+73 error      'FSReqWrap.oncomplete (fs.js:99:15)' ] }
+74 error Please try running this command again as root/Administrator.
+75 verbose exit [ -13, true ]
+76 verbose unbuild lib/node_modules/strongloop
+77 verbose gentlyRm vacuuming /usr/local/dh/nodejs/lib/node_modules/strongloop

@@ -1,0 +1,14 @@
+{
+  "name": "rabbitsales",
+  "version": "1.0.0",
+  "description": "FMF marketing spot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dilan Wijerathne",
+  "license": "FMF",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
